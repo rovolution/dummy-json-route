@@ -2,7 +2,7 @@
   "author": "Rohit Kalkur",
   "name": "dummy-json-route",
   "description": "Serve up dummy JSON data at a URL endpoint based on a Dummy JSON template file",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "repository": "git://github.com:rovolution/dummy-json-route",
   "preferGlobal": "true",
   "bin": {
