@@ -1,0 +1,22 @@
+{
+  "author": "Rohit Kalkur",
+  "name": "dummy-json-route",
+  "description": "Serve up dummy JSON data at a URL endpoint based on a Dummy JSON template file",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://bitbucket.org/rovolutionary/dummy-json-route"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "dummyjsonroute": "./bin/dummyjsonroute.js"
+  },
+  "dependencies": {
+    "dummy-json": "latest",
+    "commander": "latest",
+    "chokidar": "latest",
+    "express": "latest"
+  },
+  "engines": {
+    "node": "*"
+  }
+}

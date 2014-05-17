@@ -1,0 +1,17 @@
+{
+  "people": [
+    {{#repeat 3}}
+    {
+      "id": {{index}},
+      "firstName": "{{firstName}}",
+      "lastName": "{{lastName}}",
+      "email": "{{email}}",
+      "work": "{{company}}",
+      "age": {{number 20 50}},
+      "optedin": {{boolean}}
+    }
+    {{/repeat}}
+  ],
+  "revision": {{uniqueIndex}},
+  "tolerance": {{number '0' '2'}}
+}
